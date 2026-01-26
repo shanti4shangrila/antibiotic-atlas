@@ -20,8 +20,9 @@ jobs:
         with:
           node-version: 18
 
+      # CRITICAL: Using 'npm install' allows building without a lockfile
       - name: Install Dependencies 🔧
-        run: npm ci
+        run: npm install
 
       - name: Build Project 🏗️
         run: npm run build
