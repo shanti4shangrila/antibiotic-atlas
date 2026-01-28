@@ -1,0 +1,17 @@
+{
+  "name": "Antibiotic Atlas | Central Ohio",
+  "short_name": "ABX Atlas",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#ecfeff",
+  "theme_color": "#06b6d4",
+  "description": "Clinical Decision Support for Central Ohio",
+  "icons": [
+    {
+      "src": "vite.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
